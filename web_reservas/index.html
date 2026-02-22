@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReservaYa | Casas y residencias</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__text">
+        <p class="eyebrow">Reserva fácil y rápido</p>
+        <h1>Encuentra tu próxima estadía</h1>
+        <p>
+          Casas, hoteles y residencias con una experiencia clara, simple e intuitiva.
+        </p>
+      </div>
+      <form class="search-card" aria-label="Buscador de hospedaje">
+        <label>
+          Destino
+          <input type="text" placeholder="Ej. Medellín" />
+        </label>
+        <label>
+          Fechas
+          <input type="text" placeholder="Check-in / Check-out" />
+        </label>
+        <label>
+          Huéspedes
+          <input type="number" min="1" value="2" />
+        </label>
+        <button type="button">Buscar</button>
+      </form>
+    </header>
+
+    <main>
+      <section class="section-title">
+        <h2>Residencias destacadas</h2>
+        <p>Dos ejemplos para visualizar cómo se verían tus publicaciones.</p>
+      </section>
+
+      <section class="cards" id="cards-container"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
